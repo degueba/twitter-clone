@@ -54,8 +54,8 @@ function Form({ user }: { user: User }) {
           likedByMe: false,
           user: {
             id: user.id,
-            name: user.name,
-            image: user.image,
+            name: user.name ?? null,
+            image: user.image ?? null,
           },
         };
 
